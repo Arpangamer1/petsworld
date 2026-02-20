@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets World - Premium Pet Shop & Accessories</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <i class="fas fa-paw"></i>
+                    <span>Pets World</span>
+                </div>
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Pets World</h1>
+            <p>Your One-Stop Destination for Pets & Premium Accessories</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="document.getElementById('products').scrollIntoView({behavior: 'smooth'})">
+                    Shop Now
+                </button>
+                <button class="btn btn-secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                    Contact Us
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <i class="fas fa-dog"></i>
+            <i class="fas fa-cat"></i>
+            <i class="fas fa-fish"></i>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Our Products & Services</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    <h3>Dogs</h3>
+                    <p>Premium healthy puppies and adult dogs of various breeds to suit your family.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-cat"></i>
+                    </div>
+                    <h3>Cats</h3>
+                    <p>Beautiful purebred and mixed breed cats for the perfect companion.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3>Aquatic Pets</h3>
+                    <p>Colorful fish, aquatic plants, and complete aquarium setups.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-bird"></i>
+                    </div>
+                    <h3>Birds</h3>
+                    <p>Exotic and common bird species with cages and accessories.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Pet Food</h3>
+                    <p>Premium quality pet food, treats, and nutritional supplements.</p>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h3>Pet Accessories</h3>
+                    <p>Collars, leashes, toys, beds, grooming tools, and much more!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Pets World</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Your Trusted Pet Shop Since Opening</h3>
+                    <p>At Pets World, we believe that every pet deserves a loving home and the best care possible. We are dedicated to providing high-quality pets and premium accessories to pet lovers across Lakhimpur.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i> Premium Quality Pets</li>
+                        <li><i class="fas fa-check-circle"></i> Wide Range of Accessories</li>
+                        <li><i class="fas fa-check-circle"></i> Professional Guidance</li>
+                        <li><i class="fas fa-check-circle"></i> Affordable Prices</li>
+                        <li><i class="fas fa-check-circle"></i> Hygienic & Safe Environment</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-image"></i>
+                        <p>Shop Images</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hours & Info Section -->
+    <section class="hours-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>Opening Hours</h3>
+                    <p>Monday - Friday: 10:00 AM - 9:00 PM</p>
+                    <p>Saturday: 10:00 AM - 9:00 PM</p>
+                    <p>Sunday: 10:00 AM - 9:00 PM</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Contact Number</h3>
+                    <p><a href="tel:09792227179">097922 27179</a></p>
+                    <p>Call us for inquiries & orders</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Visit Us</h3>
+                    <p>Sitapur - Lakhimpur Rd, Rajgarh</p>
+                    <p>Maharaj Nagar, Lakhimpur</p>
+                    <p>Uttar Pradesh 262701</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Location Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.9747455949876!2d80.77624931096383!3d27.941742072415396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399f35d45755de3d%3A0xc6c39bf030545e75!2sPets%20world!5e0!3m2!1sen!2sin!4v1707328800000" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Pets World</h4>
+                    <p>Your trusted pet shop for all your pet needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Pets World. All rights reserved. | Lakhimpur, Uttar Pradesh</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
